@@ -1,0 +1,8 @@
+<code_scheme name="Default" version="173">
+  <ClojureCodeStyleSettings>{
+  :clojure.core/defmulti :only-indent
+}</ClojureCodeStyleSettings>
+  <codeStyleSettings language="JAVA">
+    <option name="WRAP_LONG_LINES" value="true" />
+  </codeStyleSettings>
+</code_scheme>
