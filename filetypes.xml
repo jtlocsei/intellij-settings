@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="Procfile" type="PLAIN_TEXT" />
       <mapping pattern="distinct-urls.edn" type="PLAIN_TEXT" />
       <mapping ext="command" type="Shell Script" />
       <mapping pattern=".gitignore_global" type="Git file" />
