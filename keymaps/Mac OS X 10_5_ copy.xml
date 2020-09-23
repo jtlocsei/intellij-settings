@@ -11,6 +11,9 @@
   <action id=":cursive.repl.actions/prev-history-item">
     <keyboard-shortcut first-keystroke="ctrl page_up" />
   </action>
+  <action id=":cursive.repl.actions/run-last-sexp">
+    <keyboard-shortcut first-keystroke="shift meta i" />
+  </action>
   <action id="Back">
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="ctrl home" />
@@ -33,6 +36,7 @@
   <action id="EmacsStyleIndent">
     <keyboard-shortcut first-keystroke="tab" />
   </action>
+  <action id="ExternalSystem.ProjectRefreshAction" />
   <action id="Forward">
     <mouse-shortcut keystroke="button5" />
     <keyboard-shortcut first-keystroke="ctrl end" />
