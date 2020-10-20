@@ -1,5 +1,5 @@
 <application>
   <component name="ReplCommandManager">
-    <repl-command name="ig-reset" executionType="EXPRESSION" commandText="(reset)" executeBefore="SYNC_ALL" executionNs="EXPLICIT_NS" inNamespace="user" saveAll="true" />
+    <repl-command name="user/reset" executionType="EXPRESSION" commandText="(reset)" executeBefore="SYNC_ALL" executionNs="EXPLICIT_NS" inNamespace="user" saveAll="true" />
   </component>
 </application>

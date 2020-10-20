@@ -18,7 +18,7 @@
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="ctrl home" />
   </action>
-  <action id="Cursive.Repl.Command.ig-reset">
+  <action id="Cursive.Repl.Command.user/reset">
     <keyboard-shortcut first-keystroke="shift meta comma" />
   </action>
   <action id="EditSource">
