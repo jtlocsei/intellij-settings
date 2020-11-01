@@ -1,0 +1,14 @@
+<templateSet group="Clojure">
+  <template name="defsc" value="(defsc $CLASSNAME$ [this {:keys [$ID$ $P1$ $P2$ $P3$ $P4$] :as props}] &#10;  {:query [$ID$ $P1$ $P2$ $P3$ $P4$] &#10;   :ident $ID$} &#10;  (dom/div )) &#10;  &#10;(def ui-$TABLE$ (comp/factory $CLASSNAME$ {:keyfn $ID$}))" description="Fulcro defsc" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASSNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ID" expression="" defaultValue=":id" alwaysStopAt="true" />
+    <variable name="P1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="P2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="P3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="P4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TABLE" expression="lowercaseAndDash(CLASSNAME)" defaultValue=":TABLE" alwaysStopAt="true" />
+    <context>
+      <option name="Clojure" value="true" />
+    </context>
+  </template>
+</templateSet>
