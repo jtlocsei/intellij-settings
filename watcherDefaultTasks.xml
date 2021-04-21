@@ -5,10 +5,10 @@
         <option name="arguments" value="--lint $FilePath$" />
         <option name="checkSyntaxErrors" value="true" />
         <option name="description" />
-        <option name="exitCodeBehavior" value="NEVER" />
+        <option name="exitCodeBehavior" value="ALWAYS" />
         <option name="fileExtension" value="clj" />
         <option name="immediateSync" value="true" />
-        <option name="name" value="clj-kondo clj" />
+        <option name="name" value="clj-kondo .clj" />
         <option name="output" value="" />
         <option name="outputFilters">
           <array>
@@ -34,7 +34,7 @@
         <option name="exitCodeBehavior" value="NEVER" />
         <option name="fileExtension" value="cljs" />
         <option name="immediateSync" value="true" />
-        <option name="name" value="clj-kondo cljs" />
+        <option name="name" value="clj-kondo .cljs" />
         <option name="output" value="" />
         <option name="outputFilters">
           <array>
@@ -60,7 +60,7 @@
         <option name="exitCodeBehavior" value="NEVER" />
         <option name="fileExtension" value="cljc" />
         <option name="immediateSync" value="true" />
-        <option name="name" value="clj-kondo cljc" />
+        <option name="name" value="clj-kondo .cljc" />
         <option name="output" value="" />
         <option name="outputFilters">
           <array>
